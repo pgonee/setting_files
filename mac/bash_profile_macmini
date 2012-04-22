@@ -1,0 +1,17 @@
+#!/bin/bash
+
+export TERM=xterm-color
+export CLICOLOR=true
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+alias ls='ls -FGw' # 한글 표시, 디렉토리면 뒤에 / 표시, 확장자별 색상 표시
+#alias vi="vi '+syn on'" # vi 쓸 때 syntax highlighting - 이건 보너스
+alias ll="ls -lv"
+
+#alias ls='ls -G'
+
+TITLEBAR='\[\e]0;\u@\h:\w \a\]'
+#export PS1='[\u@\W\[\e[37;1m\]]$ \[\e[0m\]'
+#export PS1='\u@\W$ \[\e[0m\]'
+
+export PS1='\u[macmini] @ `pwd`$ \[\e[0m\]'
