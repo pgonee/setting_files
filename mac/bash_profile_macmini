@@ -5,9 +5,4 @@ export CLICOLOR=true
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 alias ls='ls -FGw'
-#alias vi="vi '+syn on'"
 alias ll="ls -lv"
-
-#alias ls='ls -G'
-
-TITLEBAR='\[\e]0;\u@\h:\w \a\]'
