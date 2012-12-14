@@ -1,8 +1,0 @@
-#!/bin/bash
-
-export TERM=xterm-color
-export CLICOLOR=true
-export LSCOLORS=ExFxCxDxBxegedabagacad
-
-alias ls='ls -FGw'
-alias ll="ls -lv"
