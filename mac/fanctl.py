@@ -13,7 +13,6 @@ def get_max_rpm():
 
 def set_rpm(rpm_speed):
     a, b = commands.getstatusoutput('echo %d > /sys/devices/platform/applesmc.768/fan1_min' % (rpm_speed))
-    print a, b
 
 def main():
     min_temp = 30
@@ -21,19 +20,19 @@ def main():
     min_rpm = 1500
     max_rpm = get_max_rpm()
     current_temp = get_temp() / 1000
-    print "current : %d" % (current_temp)
+    #print "current : %d" % (current_temp)
 
     if current_temp <= min_temp:
         set_rpm(min_rpm)
-        print "min!"
+    #    print "min!"
     elif current_temp >= max_temp:
         set_rpm(max_rpm)
-        print "max!"
+    #    print "max!"
     else:
         index = (max_rpm - min_rpm) / (max_temp - min_temp)
         rpm = 1500 + (current_temp - min_temp) * index
         set_rpm(rpm)
-        print "hah : %d" % (rpm)
+    #    print "hah : %d" % (rpm)
 
 if __name__ == "__main__":
     main()
