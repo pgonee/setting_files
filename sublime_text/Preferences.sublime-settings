@@ -1,10 +1,16 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"auto_indent": true,
+	"color_scheme": "Packages/Color Scheme - Default/Mac Classic.tmTheme",
 	"font_face": "NanumGothicCoding",
-	"font_size": 14.0,
+	"font_size": 16.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"smart_indent": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "auto_indent": true,
-    "smart_indent": true
+	"auto_complete": false,
+	"auto_match_enabled": false
 }
