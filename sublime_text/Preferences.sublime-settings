@@ -1,11 +1,11 @@
 {
+	"auto_complete": false,
 	"auto_indent": true,
+	"auto_match_enabled": false,
 	"font_face": "NanumGothicCoding",
 	"font_size": 16.0,
 	"smart_indent": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
-	"auto_complete": false,
-	"auto_match_enabled": false
+	"word_wrap": true
 }
