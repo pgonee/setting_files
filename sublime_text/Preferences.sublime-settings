@@ -1,8 +1,8 @@
 {
-	"auto_complete": false,
+	"auto_complete": true,
 	"auto_indent": true,
-	"auto_match_enabled": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"auto_match_enabled": true,
+	"color_scheme": "Packages/Color Scheme - Default/IR_Black.tmTheme",
 	"font_face": "NanumGothicCoding",
 	"font_size": 16.0,
 	"ignored_packages":
