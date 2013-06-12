@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "[+] Turn off olleh wifi setting"
+sudo ifconfig en0 ether 28:cf:e9:19:61:41
+echo "[+] success"
+
