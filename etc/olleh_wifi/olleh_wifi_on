@@ -4,5 +4,6 @@
 # apple2: 58:1f:aa:68:70:16
 
 echo "[+] Turn on olleh wifi setting"
-sudo ifconfig en0 ether 58:1f:aa:68:70:16
+#sudo ifconfig en0 ether 58:1f:aa:68:70:16
+sudo ifconfig en0 ether 98:03:d8:58:b3:95
 echo "[+] success"
